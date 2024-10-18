@@ -1,0 +1,255 @@
+*{
+    scroll-behavior: smooth;
+}
+
+/* animaciones */
+@keyframes rotate {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes scale {
+    from{
+        opacity: 0;
+        scale: 50%;
+    }
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+@keyframes skywalker {
+    from{
+        left: 0px;
+    }
+    to{
+        left: -1366px;
+    }
+}
+@keyframes darthvader {
+    from{
+    background-color: white;
+    }
+    to{
+    background-color: rgb(237, 169, 43);
+    }
+}
+
+section{
+    width: 1366;
+    height: 4000px;
+    background-color: white;   
+    margin: 0;
+}
+.cabeza{
+    width: 1366px;
+    height: 60;
+    background-color: white;
+    margin: 0;
+}
+#circulo{
+    height: 60px;
+    width: 60px;
+    animation: rotate 8s infinite;
+}
+
+nav{
+    width: 1366px;
+    height: 60px;
+    background-color: rgb(36, 75, 140);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a{
+    color: white;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 24px;
+}
+nav a:hover{
+    height: 49px;
+    background-color: rgb(51, 84, 142);
+}
+
+.izq{
+    width: 620px;
+    height: 650px;
+    background-color: white;
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+    font-size: large;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+}
+.der{
+    width: 685px;
+    height: 1300px;
+    background-color: white;
+    font-family: "Nunito", sans-serif;
+    padding: 10px;
+    position: absolute;
+
+    top: 170px;
+    left: 670px;
+}
+
+.info111{
+    width: 645px;
+    height: 60px;
+    background-color: rgb(237, 169, 43);
+    font-family: "Nunito", sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: medium;
+    text-align: justify;
+    border-radius: 10px;
+
+    animation: scale 2s;
+    animation-delay: 0s;
+}
+.info112{
+    width: 645px;
+    height: 60px;
+    background-color: rgb(237, 169, 43);
+    font-family: "Nunito", sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: medium;
+    text-align: justify;
+    border-radius: 10px;
+
+    animation: scale 2s;
+    animation-delay: 1s;
+}
+.info113{
+    width: 645px;
+    height: 40px;
+    background-color: rgb(237, 169, 43);
+    font-family: "Nunito", sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: medium;
+    text-align: justify;
+    border-radius: 10px;
+
+    animation: scale 2s;
+    animation-delay: 2s;
+}
+.info114{
+    width: 645px;
+    height: 40px;
+    background-color: rgb(237, 169, 43);
+    font-family: "Nunito", sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: medium;
+    text-align: justify;
+    border-radius: 10px;
+
+    animation: scale 2s;
+    animation-delay: 3s;
+}
+.info115{
+    width: 645px;
+    height: 40px;
+    background-color: rgb(237, 169, 43);
+    font-family: "Nunito", sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: medium;
+    text-align: justify;
+    border-radius: 10px;
+
+    animation: scale 2s;
+    animation-delay: 4s;
+}
+.info116{
+    width: 645px;
+    height: 60px;
+    background-color: rgb(237, 169, 43);
+    font-family: "Nunito", sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: medium;
+    text-align: justify;
+    border-radius: 10px;
+
+    animation: scale 2s;
+    animation-delay: 5s;
+}
+.info117{
+    width: 645px;
+    height: 60px;
+    background-color: rgb(237, 169, 43);
+    font-family: "Nunito", sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: medium;
+    text-align: justify;
+    border-radius: 10px;
+
+    animation: scale 2s;
+    animation-delay: 6s;
+}
+.info11a{
+    width: 645px;
+    height: 60px;
+    background-color: rgb(237, 169, 43);
+    font-family: "Nunito", sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: medium;
+    text-align: justify;
+    border-radius: 10px;
+
+    animation: scale 2s;
+    animation-delay: 7s;
+}
+.info11b{
+    width: 645px;
+    height: 80px;
+    background-color: rgb(237, 169, 43);
+    font-family: "Nunito", sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: medium;
+    text-align: justify;
+    border-radius: 10px;
+
+    animation: scale 2s;
+    animation-delay: 8s;
+}
+.info11c{
+    width: 645px;
+    height: 60px;
+    background-color: rgb(237, 169, 43);
+    font-family: "Nunito", sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: medium;
+    text-align: justify;
+    border-radius: 10px;
+
+    animation: scale 2s;
+    animation-delay: 9s;
+}
+.sustentable{
+    width: 2800px;
+    height: 60px;
+    background-color: rgb(237, 169, 43);
+    margin: 3px;
+
+    position: relative;
+
+    animation-name: skywalker;
+    animation-duration: 20s;
+    animation-delay: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
